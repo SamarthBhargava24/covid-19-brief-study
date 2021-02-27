@@ -1,0 +1,46 @@
+body {
+	background-color: antiquewhite;
+}
+a{
+	display: block;
+	font-size: large;
+	font-weight: bold;
+}
+.navbar-header{
+	width: 50%;
+}
+header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	background-color: rgb(255, 255, 255);
+}
+.container{
+	width: 100%;
+	position: relative;
+}
+.row{
+	width: 100%;
+	display: flex;
+}
+.column {
+	padding: 15px;
+	flex: 50%;
+}
+#info-image {
+	width: 100px;
+	height: 100px;
+}
+section {
+	margin-top: 100px;
+}
+p{
+	font-size: large;
+}
+h2{
+	font-weight: bolder;
+}
+footer {
+	background-color: rgb(253, 180, 180);
+}
